@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pig Latin</title>
+</head>
+<body>
+    <h1>Pig Latin Translater</h1>
+    <form action="{% url 'translator' %}">
+        <input type="text" placeholder="Enter text to be translated" name="textbox"><br>
+        <input type="submit" value="TRANSLATE">
+
+    </form >
+    <form action="{% url 'aboutus' %}">
+        <input type="submit" value="About US">
+    </form>
+
+</body>
+</html>
